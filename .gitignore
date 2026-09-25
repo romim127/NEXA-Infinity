@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Node
+node_modules/
+dist/
+build/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# NEXA local runtime data
+runtime/
+logs/
+tmp/
+
+# Never commit case evidence
+cases/
+evidence/
+acquisitions/
+*.raw
+*.mem
+*.pcap
+*.pcapng
+*.E01
+*.dd
